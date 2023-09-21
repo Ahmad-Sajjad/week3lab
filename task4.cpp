@@ -8,6 +8,6 @@ main(){
 	cout<<"Enter the time (t) in seconds: ";
 	cin>>time;
 	current = charge/time;
-	cout<<"The current (I) is: "<<current<<" Amperes.";
+	cout<<"The current (I) is: "<<current<<" Amperes";
 
 }
