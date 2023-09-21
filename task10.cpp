@@ -3,7 +3,7 @@ using namespace std;
 main()
 {
     string team;
-    float wins, losses, draws, points;
+    long int wins, losses, draws, points;
     cout << "Enter the name of the cricket team: ";
     cin >> team;
     cout << "Enter the number of wins: ";
@@ -12,7 +12,6 @@ main()
     cin >> draws;
     cout << "Enter the number of losses: ";
     cin >> losses;
-    points = wins * 3 + draws;
-                            cout
-             << "Pakistan has obtained " << points << " points in the Asia Cup tournament.";
+    points = wins * 3 + draws * 1;
+    cout << team<<" has obtained " << points << " points in the Asia Cup tournament.";
 }
